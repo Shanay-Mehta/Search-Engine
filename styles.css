@@ -1,0 +1,26 @@
+body{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+  background-image: linear-gradient(to right,greenyellow,yellow);
+}
+div{
+  display: inline-block;
+}
+h1{
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  
+}
+div.searchBx{
+  /* height:40px; */
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 50px; */
+}
+
+/* add styling */
+/* add different search engines */
