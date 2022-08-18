@@ -9,6 +9,7 @@ input.addEventListener('input',e=>{
   image.src='./imgs/youtube.jpg';
   image.alt='Youtube Icon';
   engine.innerText='Search Youtube';
+  url=new URL('https://www.youtube.com/results');
   url.searchParams.set('search_query',input.value.slice(8));
  }
  else if(e.target.value.toLowerCase().startsWith('docs ')){
